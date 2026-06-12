@@ -405,11 +405,11 @@ Amenities
 <div class="cards">
 
 <div class="card">
-<h3>💦 Natural Hotspring Pool</h3>
+<h3>💦 Natural Hotspring Adult / Kiddie Pool</h3>
 </div>
 
 <div class="card">
-<h3>🛝Adult / Kiddie Pool</h3>
+<h3>🔥BBQ Griller</h3>
 </div>
 
 <div class="card">
@@ -453,7 +453,7 @@ Amenities
 </div>
 
 <div class="rate-card">
-<h3>🌙 Night Tour</h3>
+<h3>🌙 OverNight </h3>
 <ul>
 <li>Weekday: ₱7,000</li>
 <li>Weekend: ₱8,000</li>
@@ -519,7 +519,8 @@ Contact Us
 WhatsApp
 </a>
 
-<a href="[https://www.facebook.com/reyeshotspringprivatepoolresort?mibextid=wwXIfr&mibextid=wwXIfr]" class="btn facebook">
+<a href="https://www.facebook.com/share/18MCuXQWtf/?mibextid=wwXIfr" 
+class="btn facebook">
 Facebook
 </a>
 
