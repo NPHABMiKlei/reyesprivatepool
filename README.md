@@ -519,7 +519,7 @@ Contact Us
 WhatsApp
 </a>
 
-<a href="https://www.facebook.com/ReyesHotspringPrivatePool" class="btn facebook">
+<a href="[https://www.facebook.com/reyeshotspringprivatepoolresort?mibextid=wwXIfr&mibextid=wwXIfr]" class="btn facebook">
 Facebook
 </a>
 
