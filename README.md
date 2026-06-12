@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -316,7 +315,7 @@ display:none;
 <nav>
 
 <div class="logo">
-<img src="images/logo.png" alt="">
+<img src="F3876F75-3487-4E29-AED6-371773861C27.png" alt="">
 <span>Reyes Hotspring</span>
 </div>
 
@@ -366,7 +365,7 @@ perfect for family gatherings, reunions and staycations.
 </p>
 </div>
 
-<img src="images/gallery1.jpg">
+<img src="F3876F75-3487-4E29-AED6-371773861C27.png">
 
 </div>
 
@@ -384,10 +383,10 @@ Gallery
 
 <div class="gallery-grid">
 
-<img src="images/gallery1.jpg">
-<img src="images/gallery2.jpg">
-<img src="images/gallery3.jpg">
-<img src="images/gallery4.jpg">
+<img src="B6851927-AF54-42A9-9695-B6C8ECC4A5C1.png">
+<img src="EFFD1B21-AB8C-4F92-AB3D-B7405D4554A2.png">
+<img src="4C88AB56-F857-4DA4-8D00-6CE89556B0C5.png">
+<img src="1C5A6D3D-30A5-4CD9-969B-BFD061B436F7.png">
 
 </div>
 
@@ -406,11 +405,11 @@ Amenities
 <div class="cards">
 
 <div class="card">
-<h3>♨️ Natural Hotspring Pool</h3>
+<h3>💦 Natural Hotspring Pool</h3>
 </div>
 
 <div class="card">
-<h3>🛝 Kiddie Pool</h3>
+<h3>🛝Adult / Kiddie Pool</h3>
 </div>
 
 <div class="card">
