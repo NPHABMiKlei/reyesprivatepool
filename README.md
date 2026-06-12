@@ -365,7 +365,7 @@ perfect for family gatherings, reunions and staycations.
 </p>
 </div>
 
-<img src="F3876F75-3487-4E29-AED6-371773861C27.png">
+<img src="Photoroom_20260612_230532.png">
 
 </div>
 
@@ -505,7 +505,8 @@ Contact Us
 
 <div class="contact-card">
 
-<h3>📍 Pansol, Calamba City, Laguna</h3>
+<h3>📍 1-303 Kaimo
+  St. Purok 1, Pansol, Calamba City, Laguna</h3>
 
 <br>
 
