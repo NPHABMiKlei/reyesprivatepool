@@ -311,7 +311,7 @@ nav ul li{
 <nav>
 
 <div class="logo">
-<img src="logo.png" alt="Reyes Hotspring Logo">
+<img src="IMG_6131.png" alt="Reyes Hotspring Logo">
 <h2>Reyes Hotspring Private Pool</h2>
 </div>
 
