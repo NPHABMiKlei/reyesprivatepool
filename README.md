@@ -83,7 +83,7 @@ font-weight:600;
 height:100vh;
 background:
 linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
-url('images/hero.jpg');
+url('B6851927-AF54-42A9-9695-B6C8ECC4A5C1.png');
 background-size:cover;
 background-position:center;
 display:flex;
@@ -352,7 +352,7 @@ View Rates
 <div class="container">
 
 <h2 class="section-title">
-Welcome to Paradise
+Welcome to Reyes Hotspring Private Pool
 </h2>
 
 <div class="about">
