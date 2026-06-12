@@ -330,7 +330,7 @@ nav ul li{
 
 <div class="hero-content">
 
-<img src="logo.png" alt="Logo">
+<img src="IMG_6131.jpeg" alt="Logo">
 
 <h1>Reyes Hotspring Private Pool</h1>
 
