@@ -4,303 +4,308 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Reyes Hotspring Private Pool | Pansol Laguna</title>
+<title>Reyes Hotspring Private Pool</title>
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
 <style>
 
-:root{
-    --primary:#0077b6;
-    --secondary:#00b4d8;
-    --dark:#023047;
-    --light:#ffffff;
-    --accent:#fb8500;
-    --gray:#f5f9fc;
-}
-
 *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:'Poppins',sans-serif;
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
 }
 
-html{
-    scroll-behavior:smooth;
+:root{
+--primary:#0077ff;
+--secondary:#00d4ff;
+--dark:#002c6f;
+--orange:#ff9800;
+--white:#fff;
+--light:#f5fbff;
 }
 
 body{
-    background:white;
-    color:#333;
+background:var(--light);
+overflow-x:hidden;
 }
 
-/* NAVIGATION */
+/* NAVBAR */
 
 header{
-    position:fixed;
-    width:100%;
-    top:0;
-    z-index:1000;
-    background:rgba(255,255,255,.95);
-    backdrop-filter:blur(10px);
-    box-shadow:0 2px 15px rgba(0,0,0,.05);
+position:fixed;
+top:0;
+left:0;
+width:100%;
+background:rgba(255,255,255,.95);
+backdrop-filter:blur(10px);
+z-index:1000;
+box-shadow:0 2px 15px rgba(0,0,0,.1);
 }
 
 nav{
-    width:90%;
-    max-width:1200px;
-    margin:auto;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:15px 0;
+max-width:1200px;
+margin:auto;
+padding:15px 20px;
+display:flex;
+justify-content:space-between;
+align-items:center;
 }
 
 .logo{
-    display:flex;
-    align-items:center;
-    gap:10px;
+display:flex;
+align-items:center;
+gap:10px;
+font-weight:700;
+color:var(--dark);
 }
 
 .logo img{
-    height:55px;
-}
-
-.logo h2{
-    color:var(--dark);
-    font-size:1.1rem;
+height:50px;
 }
 
 nav ul{
-    display:flex;
-    list-style:none;
+display:flex;
+gap:25px;
+list-style:none;
 }
 
-nav ul li{
-    margin-left:25px;
-}
-
-nav ul li a{
-    text-decoration:none;
-    color:var(--dark);
-    font-weight:500;
-}
-
-nav ul li a:hover{
-    color:var(--primary);
+nav a{
+text-decoration:none;
+color:#333;
+font-weight:600;
 }
 
 /* HERO */
 
 .hero{
-    min-height:100vh;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
-    padding:100px 20px;
-
-    background:
-    radial-gradient(circle at 20% 20%, rgba(0,180,216,.15), transparent 30%),
-    radial-gradient(circle at 80% 70%, rgba(0,119,182,.12), transparent 30%),
-    linear-gradient(135deg,#f8fbff,#dff4ff,#f5fcff);
+height:100vh;
+background:
+linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
+url('images/hero.jpg');
+background-size:cover;
+background-position:center;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+color:white;
 }
 
-.hero-content{
-    max-width:800px;
+.hero-content h1{
+font-size:4rem;
+font-weight:800;
 }
 
-.hero img{
-    width:220px;
-    margin-bottom:20px;
-}
-
-.hero h1{
-    font-size:3.5rem;
-    color:var(--dark);
-    margin-bottom:10px;
-}
-
-.hero p{
-    font-size:1.2rem;
-    color:#555;
-    margin-bottom:30px;
+.hero-content p{
+font-size:1.2rem;
+margin:20px 0;
 }
 
 .btn{
-    display:inline-block;
-    padding:15px 30px;
-    background:var(--primary);
-    color:white;
-    text-decoration:none;
-    border-radius:50px;
-    margin:10px;
-    transition:.3s;
+display:inline-block;
+padding:15px 35px;
+background:var(--orange);
+color:white;
+text-decoration:none;
+border-radius:50px;
+font-weight:700;
+transition:.3s;
 }
 
 .btn:hover{
-    background:var(--dark);
-}
-
-.btn-outline{
-    background:white;
-    color:var(--primary);
-    border:2px solid var(--primary);
-}
-
-.btn-outline:hover{
-    color:white;
+transform:translateY(-5px);
 }
 
 /* SECTIONS */
 
 section{
-    padding:90px 10%;
+padding:100px 20px;
+}
+
+.container{
+max-width:1200px;
+margin:auto;
 }
 
 .section-title{
-    text-align:center;
-    margin-bottom:50px;
-}
-
-.section-title h2{
-    font-size:2.5rem;
-    color:var(--dark);
-}
-
-.section-title p{
-    color:#777;
+text-align:center;
+font-size:2.5rem;
+margin-bottom:50px;
+color:var(--dark);
 }
 
 /* ABOUT */
 
 .about{
-    max-width:900px;
-    margin:auto;
-    text-align:center;
-    line-height:2;
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:40px;
+align-items:center;
 }
 
-/* AMENITIES */
-
-.amenities{
-    background:var(--gray);
-}
-
-.cards{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-    gap:25px;
-}
-
-.card{
-    background:white;
-    border-radius:20px;
-    padding:30px;
-    text-align:center;
-    box-shadow:0 10px 30px rgba(0,119,182,.08);
-    transition:.3s;
-}
-
-.card:hover{
-    transform:translateY(-10px);
-}
-
-.card h3{
-    color:var(--primary);
-    margin-bottom:10px;
+.about img{
+width:100%;
+border-radius:20px;
 }
 
 /* GALLERY */
 
-.gallery{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-    gap:20px;
+.gallery-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:20px;
 }
 
-.gallery img{
-    width:100%;
-    height:280px;
-    object-fit:cover;
-    border-radius:20px;
+.gallery-grid img{
+width:100%;
+height:250px;
+object-fit:cover;
+border-radius:15px;
+transition:.4s;
+}
+
+.gallery-grid img:hover{
+transform:scale(1.05);
+}
+
+/* AMENITIES */
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:20px;
+text-align:center;
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.card h3{
+color:var(--primary);
+margin-bottom:10px;
+}
+
+/* RATES */
+
+.rate-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+}
+
+.rate-card{
+background:white;
+padding:40px;
+text-align:center;
+border-radius:20px;
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.rate-card h3{
+color:var(--primary);
+margin-bottom:15px;
+}
+
+.rate-card li{
+list-style:none;
+padding:8px;
+font-weight:600;
 }
 
 /* POLICY */
 
 .policy{
-    background:var(--gray);
+background:linear-gradient(135deg,#0077ff,#00d4ff);
+color:white;
 }
 
 .policy-box{
-    max-width:900px;
-    margin:auto;
-    background:white;
-    padding:40px;
-    border-radius:20px;
-    box-shadow:0 10px 25px rgba(0,0,0,.05);
-}
-
-.policy-box ul{
-    margin-top:20px;
-    margin-left:20px;
-}
-
-.policy-box li{
-    margin-bottom:12px;
+max-width:800px;
+margin:auto;
+text-align:center;
+line-height:2;
 }
 
 /* CONTACT */
 
-.contact{
-    text-align:center;
+.contact-card{
+max-width:700px;
+margin:auto;
+padding:40px;
+background:white;
+border-radius:20px;
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+text-align:center;
 }
 
-.contact-box{
-    max-width:700px;
-    margin:auto;
+.contact-buttons{
+margin-top:20px;
+display:flex;
+gap:15px;
+justify-content:center;
+flex-wrap:wrap;
 }
 
-.contact-number{
-    font-size:1.2rem;
-    margin:15px 0;
+.whatsapp{
+background:#25D366;
+}
+
+.facebook{
+background:#1877f2;
 }
 
 /* FOOTER */
 
 footer{
-    background:var(--dark);
-    color:white;
-    text-align:center;
-    padding:25px;
+background:var(--dark);
+color:white;
+padding:25px;
+text-align:center;
+}
+
+/* FLOATING WHATSAPP */
+
+.float{
+position:fixed;
+right:20px;
+bottom:20px;
+background:#25D366;
+color:white;
+width:60px;
+height:60px;
+border-radius:50%;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:28px;
+text-decoration:none;
+box-shadow:0 10px 20px rgba(0,0,0,.2);
 }
 
 /* MOBILE */
 
 @media(max-width:768px){
 
-.hero h1{
-    font-size:2.2rem;
+.about{
+grid-template-columns:1fr;
 }
 
-nav{
-    flex-direction:column;
+.hero-content h1{
+font-size:2.5rem;
 }
 
 nav ul{
-    flex-wrap:wrap;
-    justify-content:center;
-    margin-top:10px;
+display:none;
 }
 
-nav ul li{
-    margin:8px;
-}
-
-.hero img{
-    width:180px;
-}
 }
 
 </style>
@@ -311,37 +316,33 @@ nav ul li{
 <nav>
 
 <div class="logo">
-<img src="IMG_6131.jpeg" alt="Reyes Hotspring Logo">
-<h2>Reyes Hotspring Private Pool</h2>
+<img src="images/logo.png" alt="">
+<span>Reyes Hotspring</span>
 </div>
 
 <ul>
-<li><a href="#home">Home</a></li>
 <li><a href="#about">About</a></li>
-<li><a href="#amenities">Amenities</a></li>
 <li><a href="#gallery">Gallery</a></li>
+<li><a href="#rates">Rates</a></li>
 <li><a href="#contact">Contact</a></li>
 </ul>
 
 </nav>
 </header>
 
-<section class="hero" id="home">
+<section class="hero">
 
 <div class="hero-content">
-
-<img src="IMG_6131.jpeg" alt="Logo">
 
 <h1>Reyes Hotspring Private Pool</h1>
 
 <p>
-Relax. Recharge. Reconnect.
-<br>
-Natural Hot Spring Resort in Pansol, Calamba City, Laguna.
+Your Private Tropical Escape in Pansol, Calamba Laguna
 </p>
 
-<a href="#contact" class="btn">Reserve Now</a>
-<a href="#gallery" class="btn btn-outline">View Gallery</a>
+<a href="#rates" class="btn">
+View Rates
+</a>
 
 </div>
 
@@ -349,66 +350,24 @@ Natural Hot Spring Resort in Pansol, Calamba City, Laguna.
 
 <section id="about">
 
-<div class="section-title">
-<h2>About Us</h2>
-<p>Your private hot spring getaway.</p>
-</div>
+<div class="container">
+
+<h2 class="section-title">
+Welcome to Paradise
+</h2>
 
 <div class="about">
-Experience a relaxing stay with family and friends at Reyes Hotspring Private Pool.
-Enjoy natural hot spring pools, comfortable accommodations, spacious facilities,
-and exclusive privacy for birthdays, reunions, team buildings, and weekend vacations.
+
+<div>
+<p>
+Enjoy a relaxing getaway with natural hotspring pools,
+airconditioned rooms, videoke, WiFi and complete amenities
+perfect for family gatherings, reunions and staycations.
+</p>
 </div>
 
-</section>
+<img src="images/gallery1.jpg">
 
-<section class="amenities" id="amenities">
-
-<div class="section-title">
-<h2>Resort Amenities</h2>
-<p>Everything you need for a comfortable stay.</p>
-</div>
-
-<div class="cards">
-
-<div class="card">
-<h3>💦 Adult Pool</h3>
-<p>Natural Hot Spring Pool</p>
-</div>
-
-<div class="card">
-<h3>🛝 Kiddie Pool</h3>
-<p>Natural Hot Spring Pool</p>
-</div>
-
-<div class="card">
-<h3>🛌 Rooms</h3>
-<p>2 Fully Airconditioned Rooms with Own Bathroom</p>
-</div>
-
-<div class="card">
-<h3>🛏️ Capacity</h3>
-<p>15–20 Guests</p>
-</div>
-
-<div class="card">
-<h3>📶 Free WiFi</h3>
-<p>Fast Internet Access</p>
-</div>
-
-<div class="card">
-<h3>🎤 Videoke</h3>
-<p>Enjoy Singing with Friends & Family</p>
-</div>
-
-<div class="card">
-<h3>🚘 Parking</h3>
-<p>3–4 Vehicle Parking Slots</p>
-</div>
-
-<div class="card">
-<h3>♨️ BBQ Griller</h3>
-<p>Perfect for Outdoor Dining</p>
 </div>
 
 </div>
@@ -417,20 +376,100 @@ and exclusive privacy for birthdays, reunions, team buildings, and weekend vacat
 
 <section id="gallery">
 
-<div class="section-title">
-<h2>Gallery</h2>
-<p>Replace these photos with your actual resort pictures.</p>
+<div class="container">
+
+<h2 class="section-title">
+Gallery
+</h2>
+
+<div class="gallery-grid">
+
+<img src="images/gallery1.jpg">
+<img src="images/gallery2.jpg">
+<img src="images/gallery3.jpg">
+<img src="images/gallery4.jpg">
+
 </div>
 
-<div class="gallery">
+</div>
 
-<img src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1000&q=80">
+</section>
 
-<img src="https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=1000&q=80">
+<section>
 
-<img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1000&q=80">
+<div class="container">
 
-<img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1000&q=80">
+<h2 class="section-title">
+Amenities
+</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>♨️ Natural Hotspring Pool</h3>
+</div>
+
+<div class="card">
+<h3>🛝 Kiddie Pool</h3>
+</div>
+
+<div class="card">
+<h3>🛏️ 2 Airconditioned Rooms</h3>
+</div>
+
+<div class="card">
+<h3>📶 Free WiFi</h3>
+</div>
+
+<div class="card">
+<h3>🎤 Videoke</h3>
+</div>
+
+<div class="card">
+<h3>🚘 Parking Area</h3>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="rates">
+
+<div class="container">
+
+<h2 class="section-title">
+💰 Resort Rates
+</h2>
+
+<div class="rate-grid">
+
+<div class="rate-card">
+<h3>☀️ Day Tour</h3>
+<ul>
+<li>Weekday: ₱6,000</li>
+<li>Weekend: ₱7,000</li>
+</ul>
+</div>
+
+<div class="rate-card">
+<h3>🌙 Night Tour</h3>
+<ul>
+<li>Weekday: ₱7,000</li>
+<li>Weekend: ₱8,000</li>
+</ul>
+</div>
+
+<div class="rate-card">
+<h3>🏡 22 Hours Stay</h3>
+<ul>
+<li>Weekday: ₱10,000</li>
+<li>Weekend: ₱12,000</li>
+</ul>
+</div>
+
+</div>
 
 </div>
 
@@ -438,74 +477,71 @@ and exclusive privacy for birthdays, reunions, team buildings, and weekend vacat
 
 <section class="policy">
 
-<div class="section-title">
-<h2>Reservation Policy</h2>
-</div>
+<div class="container">
+
+<h2 class="section-title" style="color:white;">
+Reservation Policy
+</h2>
 
 <div class="policy-box">
 
-<ul>
-<li>✅ 50% Reservation Fee Required</li>
-<li>✅ No Downpayment = No Reservation</li>
-<li>✅ First Come, First Served Basis</li>
-<li>❌ Reservation Fee is Strictly Non-Refundable</li>
-</ul>
+<p>✅ 50% Reservation Fee Required</p>
+<p>✅ No Downpayment = No Reservation</p>
+<p>✅ First Come First Served</p>
+<p>❌ Downpayment is Strictly Non-Refundable</p>
 
-<br>
-
-<h3>Please Bring Your Own:</h3>
-
-<ul>
-<li>✔ Kitchen Utensils</li>
-<li>✔ Blankets</li>
-<li>✔ Towels</li>
-<li>✔ Toiletries</li>
-</ul>
+</div>
 
 </div>
 
 </section>
 
-<section class="contact" id="contact">
+<section id="contact">
 
-<div class="section-title">
-<h2>Contact Us</h2>
-<p>Book your stay today.</p>
+<div class="container">
+
+<h2 class="section-title">
+Contact Us
+</h2>
+
+<div class="contact-card">
+
+<h3>📍 Pansol, Calamba City, Laguna</h3>
+
+<br>
+
+<h2>0917-806-4028</h2>
+<h2>0915-289-6007</h2>
+
+<div class="contact-buttons">
+
+<a href="https://wa.me/639178064028" class="btn whatsapp">
+WhatsApp
+</a>
+
+<a href="https://www.facebook.com/ReyesHotspringPrivatePool" class="btn facebook">
+Facebook
+</a>
+
+<a href="https://maps.app.goo.gl/f5ZqU8sMzpRiNgy3A?g_st=ic" class="btn">
+Google Maps
+</a>
+
 </div>
 
-<div class="contact-box">
-
-<div class="contact-number">
-📱 WhatsApp/Viber: 0917-806-4028
 </div>
-
-<div class="contact-number">
-📱 WhatsApp/Viber: 0915-289-6007
-</div>
-
-<a class="btn" href="#" onclick="bookNow()">Reserve Now</a>
 
 </div>
 
 </section>
 
 <footer>
-© 2026 Reyes Hotspring Private Pool • Pansol, Calamba City, Laguna
+© 2025 Reyes Hotspring Private Pool | Pansol, Calamba Laguna
 </footer>
 
-<script>
-
-function bookNow(){
-alert(
-"Thank you for your interest in Reyes Hotspring Private Pool!\n\n"+
-"Contact us for reservations:\n\n"+
-"0917-806-4028\n"+
-"0915-289-6007\n\n"+
-"50% Reservation Fee Required."
-);
-}
-
-</script>
+<a href="https://wa.me/639178064028" class="float">
+💬
+</a>
 
 </body>
 </html>
